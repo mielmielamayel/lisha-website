@@ -1,4 +1,4 @@
-let clickCount = 5; // Initialize the click count
+let clickCount = 5; 
 
 document.getElementById("heart")?.addEventListener("click", () => {
   if (clickCount > 0) {
@@ -17,7 +17,7 @@ document.getElementById("heart")?.addEventListener("click", () => {
         setTimeout(() => {
           window.location.href = "page3.html";
         }, 2000);
-      }, 700); // Add a delay for the "I love you" text
+      }, 700); 
     } else {
       clickInstructions.textContent = `Click this heart ${clickCount - 1} times`;
       clickCount--;
@@ -26,7 +26,7 @@ document.getElementById("heart")?.addEventListener("click", () => {
 });
 
 document.getElementById("proceed-button")?.addEventListener("click", () => {
-  window.location.href = "page2.html"; // Change the page URL accordingly
+  window.location.href = "page2.html"; 
 });
 
 document.getElementById("back-button")?.addEventListener("click", () => {
