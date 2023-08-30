@@ -71,15 +71,11 @@ body {
     color: #FFA5F1;
     opacity: 0;
     animation: fade-in 0.5s 0.5s forwards;
-    text-align: center; /* Center the text horizontally */
+    text-align: center; 
   }
 
-  /* ... (previous styles) ... */
-
-/* ... (previous styles) ... */
-
 .index-page {
-    background-color: #FFA5F1; /* Set the background color to pink */
+    background-color: #FFA5F1; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +83,7 @@ body {
   }
   
   .index-box {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 40px;
     border-radius: 10px;
     text-align: center;
@@ -115,10 +111,10 @@ body {
     border-radius: 10px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     text-align: left;
-    width: 95%; /* Adjusted width */
-    max-width: 900px; /* Added max width for larger screens */
+    width: 95%; 
+    max-width: 900px; 
     margin: 0 auto;
-    height: 80vh; /* Adjusted height */
+    height: 80vh; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -129,10 +125,6 @@ body {
     font-size: 2rem;
     margin-top: 0;
   }
-  
-  /* ... (previous styles) ... */
-
-/* ... (previous styles) ... */
 
 .note-box textarea {
     width: 100%;
@@ -142,12 +134,10 @@ body {
     resize: vertical;
     text-align: justify;
     flex: 1;
-    font-family: "Times New Roman", serif; /* Set the font family to Times New Roman */
-    font-size: 1rem; /* Reset font size to normal */
+    font-family: "Times New Roman", serif; 
+    font-size: 1rem; 
   }
-  
 
-  
   .note-box button {
     padding: 10px 20px;
     font-size: 16px;
@@ -163,10 +153,6 @@ body {
   .note-box button:hover {
     background-color: #ec407a;
   }
-  
-  /* ... (previous styles) ... */
-  
-  
   
   @keyframes heartbeat {
     0%, 100% {
